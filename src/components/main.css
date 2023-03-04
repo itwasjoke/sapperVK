@@ -1,0 +1,60 @@
+
+#root{
+
+display: flex;
+}
+.game{
+	margin: auto;
+	width:409px;
+}
+.yField{
+	display: flex;
+}
+.xField{
+	display: flex;
+	justifyContent: center;
+	alignItems: center;
+	width: 24px;
+	height: 24px;
+/*	margin: 1px;*/
+}
+.gameBlock{
+	border: 13px ridge;
+	border-top: none;
+}
+.gameInfo{
+	background-color: Gainsboro;
+	border: 13px ridge;
+	display: grid;
+	grid-template-columns: 2fr 5fr 2fr;
+}
+.description{
+	font-size: 10px;
+	font-style: italic;
+	color:gray;
+	padding-top:5px;
+}
+
+.mainButton img{
+	display: block;
+    margin: 0 auto; 
+	padding: 5px;
+	height: 50px;
+}
+.timer{
+	display: block;
+    margin: 0 auto; 
+}
+.timer img{
+	padding: 5px 0px;
+	height: 50px;
+}
+.author{
+	padding-top:35px;
+	padding-bottom:10px;
+	font-size:12px;
+	margin: 0;
+}
+.author span{
+	font-style: italic;
+}
