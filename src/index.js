@@ -47,7 +47,7 @@ const App =()=>{
 
   // base data about game
   const size=16;
-  const bombs=30;
+  const bombs=2;
   const globalTime=40*60;
 
   // empty array to create a field
@@ -99,7 +99,7 @@ const App =()=>{
   // checking when the player win the game
   const endgame=useMemo(()=> start && !field.some(
     (f,i)=> 
-      ((f!==mine && mask[i] === blockStates.flag) || (f===mine && mask[i] === blockStates.invisible))
+      ((f!==mine && mask[i] === blockStates.invisible))
     ),[field,mask],
   );
   useEffect(()=>{
