@@ -47,7 +47,7 @@ const App =()=>{
 
   // base data about game
   const size=16;
-  const bombs=2;
+  const bombs=20;
   const globalTime=40*60;
 
   // empty array to create a field
